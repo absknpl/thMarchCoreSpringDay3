@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+   
+ <context:annotation-config/>  
+  
+ <bean id="charger2"    class="com.service.Charger">
+	  	<property name="model" value="Hp"/>
+	  	<property name="year" value="2025"/>
+	  	<property name="price" value="50"/>
+  </bean> 
+  
+  
+  <bean id="charger4"    class="com.service.Charger">
+	  	<property name="model" value="Dell"/>
+	  	<property name="year" value="2024"/>
+	  	<property name="price" value="30"/>
+  </bean> 
+  
+  
+  <bean id="charger"    class="com.service.Charger">
+	  	<property name="model" value="Apple"/>
+	  	<property name="year" value="2023"/>
+	  	<property name="price" value="25"/>
+  </bean> 
+  
+  
+  
+   <bean id="laptop"    class="com.service.Laptop">
+	  	<property name="model" value="Dell"/>
+	  	<property name="year" value="2023"/>
+	  	<property name="color" value="Grey"/>
+	  	<property name="price" value="1000"/>	  	
+	  	
+	  		  	
+  </bean> 
+   
+   
+   
+   
+ </beans>
